@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <h1 className='heading'>Sorting Visualizer</h1>
-      <SortingVisualizer></SortingVisualizer>
+      <SortingVisualizer />
     </div>
   );
 }
