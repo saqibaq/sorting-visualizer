@@ -110,13 +110,13 @@ export default class SortingVisualizer extends React.Component {
                 ))}
 
                 <div className='button-container'>
-                    <button type="button" class="btn btn-secondary" onClick={() => this.resetArray()}>Generate New Array</button>
-                    <button type="button" class="btn btn-outline-primary" onClick={() => this.mergeSort()}>Merge Sort</button>
-                    <button type="button" class="btn btn-outline-primary" onClick={() => this.quickSort()}>Quick Sort</button>
-                    <button type="button" class="btn btn-outline-primary" onClick={() => this.heapSort()}>Heap Sort</button>
-                    <button type="button" class="btn btn-primary" onClick={() => this.bubbleSort()}>Bubble Sort</button>
-                    <button type="button" class="btn btn-primary" onClick={() => this.insertionSort()}>Insertion Sort</button>
-                    <button type="button" class="btn btn-primary" onClick={() => this.selectionSort()}>Selection Sort</button>
+                    <button type="button" className="btn btn-secondary" onClick={() => this.resetArray()}>Generate New Array</button>
+                    <button type="button" className="btn btn-outline-primary" onClick={() => this.mergeSort()}>Merge Sort</button>
+                    <button type="button" className="btn btn-outline-primary" onClick={() => this.quickSort()}>Quick Sort</button>
+                    <button type="button" className="btn btn-outline-primary" onClick={() => this.heapSort()}>Heap Sort</button>
+                    <button type="button" className="btn btn-primary" onClick={() => this.bubbleSort()}>Bubble Sort</button>
+                    <button type="button" className="btn btn-primary" onClick={() => this.insertionSort()}>Insertion Sort</button>
+                    <button type="button" className="btn btn-primary" onClick={() => this.selectionSort()}>Selection Sort</button>
                     {/* <button type="button" class="btn btn-secondary" onClick={() => this.testSortingAlgorithms()}>
                         Test Sorting Algorithms (BROKEN)
                     </button> */}
