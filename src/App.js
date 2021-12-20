@@ -6,6 +6,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <h1 className='heading'>Sorting Visualizer</h1>
       <SortingVisualizer></SortingVisualizer>
     </div>
   );
